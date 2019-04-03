@@ -1,6 +1,6 @@
 ### nimrod
 
-A simple tool for when you misplace the password of your keystore file
+A simple tool for when you misplace the password of your Ethereum keystore
 
 ***Requirements***:
 - keystore.json, looks something like (UTC--2018-01-22T18-27-58.446Z--96d965956cca38d3ad0e41e01b0a2de2a570a339)
