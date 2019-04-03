@@ -14,7 +14,6 @@ password_list = passwords.split('\n')
 password_list.forEach(password => {
 	try {
 		const private_key = keythereum.recover(password, keyObj)
-		console.log(private_key.toString('hex'))
 		if (private_key.length === 32) {
 			console.log(`[*] found password: ${password}`)
 			process.exit(1)
